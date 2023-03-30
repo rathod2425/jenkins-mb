@@ -8,6 +8,7 @@ pipeline {
       steps{
       
         echo "heheee mb branchhhh!!!"
+        echo "newwww"
         
       }
       
