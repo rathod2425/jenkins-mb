@@ -8,6 +8,7 @@ pipeline {
       steps{
       
         echo "heheee master  branchhhh!!!"
+        echo "step 22222"
         
       }
       
