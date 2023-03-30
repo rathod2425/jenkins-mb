@@ -7,7 +7,7 @@ pipeline {
      
       steps{
       
-        echo "heheee mb branchhhh!!!"
+        echo "heheee master  branchhhh!!!"
         
       }
       
