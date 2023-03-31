@@ -11,8 +11,8 @@ pipeline {
     
     stage ('env'){
       steps {
-        echo ${var1}
-        echo ${var2}
+        echo "${var1}"
+        echo "${var2}"
         
       }
           
