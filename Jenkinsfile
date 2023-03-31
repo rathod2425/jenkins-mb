@@ -2,12 +2,13 @@ pipeline {
   
   agent any
   stages {
-  
-    
     
     stage ('env'){
-    echo $BRANCH_NAME
-      
+      steps {
+      echo $BRANCH_NAME
+        
+      }
+          
     }
     stage ('build') {
       when {
