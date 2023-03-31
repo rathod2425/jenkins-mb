@@ -1,11 +1,18 @@
 pipeline {
   
   agent any
+  
+  environment {
+        var1 = "hehe"
+        var2   = 'lmaoo'
+    }
+  
   stages {
     
     stage ('env'){
       steps {
-      echo $BRANCH_NAME
+      echo $var1
+       echo $var2
         
       }
           
