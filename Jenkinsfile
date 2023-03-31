@@ -7,6 +7,9 @@ pipeline {
         var2   = 'lmaoo'
     }
   
+  parameters {
+    booleanParam(name: "lmaoo??")
+  }
   stages {
     
     stage ('env'){
