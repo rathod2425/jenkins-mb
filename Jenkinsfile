@@ -4,7 +4,11 @@ pipeline {
   stages {
   
     stage ('build') {
-     
+      when {
+        expression {
+        false
+        }
+      }
       steps{
       
 //         echo "heheee master  branchhhh!!!"
