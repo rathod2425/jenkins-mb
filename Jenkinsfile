@@ -23,7 +23,7 @@ pipeline {
     stage ('build') {
       when {
         expression {
-        false
+        1 == 1
         }
       }
       steps{
